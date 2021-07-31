@@ -1,0 +1,29 @@
+$colorbg: #fff4e9;
+
+body{
+    background-color: $colorbg;
+.navbar__bg{
+    background-color: $colorbg !important;
+   padding: 1rem;
+}
+
+
+/* Galeria*/
+.carousel-item__size{
+width: 30rem;
+}
+.carousel__position{
+    padding-left: 25rem;
+    align-items: flex-start;
+}
+.menu{
+    ul{
+        margin: 1rem;
+
+    }
+    li{
+        line-height: 2rem;
+    }
+
+}
+}

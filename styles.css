@@ -1,0 +1,29 @@
+body {
+  background-color: #fff4e9;
+  /* Galeria*/
+}
+
+body .navbar__bg {
+  background-color: #fff4e9 !important;
+  padding: 1rem;
+}
+
+body .carousel-item__size {
+  width: 30rem;
+}
+
+body .carousel__position {
+  padding-left: 25rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body .menu ul {
+  margin: 1rem;
+}
+
+body .menu li {
+  line-height: 2rem;
+}
+/*# sourceMappingURL=styles.css.map */

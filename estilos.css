@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  color:#a94954
+  ;
+  font-family: "Nunito", sans-serif;
+background-color:rgba(255,244,233,255)
+;
+}
+/* Grid del Index*/
+.gridIndex{
+
+   display: grid;
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+justify-content: center;
+align-content: center;
+grid-column-gap: 1rem;
+grid-row-gap: 1rem
+}
+
+.gridIndex div{
+text-align: center;
+
+}
+
+.encabezado{
+  grid-column: 1/4;
+}
+
+.logo{   
+  height: 20rem;
+  width: 60rem;
+ margin-top: 2rem;
+ padding-top: 2 rem;
+}
+
+.titulo{
+  font-family: 'MonteCarlo', cursive;
+  margin-top: 2rem;
+  justify-items: center;
+  align-items: flex-end;
+  font-size: 32pt;
+}
+
+.nav__posicion{
+
+  grid-column: 1/4;
+  padding-left: 2rem;
+  text-align: end;
+}
+.bg-light{
+
+background-color: #d2c9b8 !important;
+background-size: cover;
+}
+#caja{
+  grid-column: 1/4;
+}
+
+
+header{
+  font-style: italic;
+  padding: 3rem;
+}
+
+#bailarina{
+  padding: 3rem;
+}
+
+#listaor{
+  text-align: start;
+font-size: 12pt;
+  margin: 1rem;
+  padding: 1rem;
+line-height: 2rem;
+}
+#pie{padding: 1rem;
+  text-align: center;
+
+}
+
+#youtube{
+  padding-right: 3rem;
+  padding-top: 3rem;
+  grid-column: 2/4;
+}
+#video{
+  padding-top: 3rem;
+}
+
+/* Footer común a todas las páginas*/
+.footer{
+  
+  grid-column: 1/4;
+  text-align-last: center ;
+  font-size: 11pt;
+  font-weight: 600;
+
+  padding: 5rem;
+}
+.redes{
+  justify-items: end;
+  margin: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+.footer-imagen{
+ 
+  width: 100%
+}
+
+/* Catalogo*/
+#catalogoMenu{
+  margin: 2rem;
+  text-align: end;
+} 
+
+.flexPadre{
+    margin: 2rem;
+    padding: 2rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:  space-around;
+    align-content:  space-between;
+    align-items: center;
+border: 1pt solid;}
+
+.imgCatalogo{
+  width: 10rem;
+}
+
+.padre2{
+  margin: 2rem;
+  padding: 2rem;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:  space-around;
+    align-content:  space-between;
+    align-items: center;
+border: 1pt solid;}
+
+.caja{
+  font-weight: 800;
+  transition: height 2s, width 2s; 
+ }
+ .caja:hover {
+  height: 10rem;
+   width: 10rem;
+ }
+ /* Quienes Somos*/
+
+ .somos{
+   margin: 2rem;
+   font-size: 28pt;
+ }
+ .somos-texto{
+   color: #e198a1;
+   font-style: italic;
+ font-size: 14pt;
+ font-weight: 400;
+  }
+
+ .gridSomos{
+   margin: 2rem;
+   display: grid;
+
+grid-template-columns: auto auto;
+grid-template-rows: auto auto;
+justify-content: center;
+align-content: center;
+
+}
+.gridSomos div{
+text-align: center;
+}
+
+
+#sectionGrid{
+  line-height: 2rem;
+  font-style: italic;
+  margin: 2rem;
+  grid-column: 1/4;
+}
+
+#asideGrid{
+    margin: 2rem;
+  grid-column: 1/4;
+}
+
+#tabla{
+  margin:2rem;
+}
+
+#finPagina{
+  margin: 2rem;
+  text-align: end;
+}
+#menuGaleria{
+  text-align: end;
+}
+#galeria{
+  margin: 2rem;
+font-weight: bold;
+text-align: center;}
+
+.contacto{
+  margin: 2rem;
+padding-bottom: 2rem;
+}
+
+.genero{
+  margin: 2rem;
+}
+
+.historia{
+  margin: 1rem;
+}
+.historia-imagen{
+transform:rotate(12deg);
+transform: rotateZ(15deg);
+  margin: 7rem;
+  width: 50rem;
+}
+
